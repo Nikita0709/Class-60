@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+}
+
+#app {
+    width: 100%;
+    height: 800px;
+    background-color: aliceblue;
+}
+
+#game {
+    width: 100%;
+    height: 800px;
+    background-color: aqua;
+}
+
+#chatbot {
+    width: 100%;
+    height: 800px;
+    background-color: lightcoral;
+}
+
+img {
+    height: 309px;
+    width: 220px;
+    transition: transform .2s;
+}
+
+img.hover {
+    transform: scale(0.9);
+}
+
+html {
+    scroll-behavior: smooth;
+}
